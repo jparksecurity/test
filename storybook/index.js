@@ -5,6 +5,7 @@ import './rn-addons';
 // import stories
 configure(() => {
   require('../components/Task.stories.js');
+  require('../components/TaskList.stories.js');
 }, module);
 
 // Refer to https://github.com/storybookjs/storybook/tree/master/app/react-native#start-command-parameters
