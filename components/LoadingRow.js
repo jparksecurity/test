@@ -27,7 +27,7 @@ const GlowView = props => {
 };
 
 const LoadingRow = () => (
-  <SafeAreaView style={{ padding: 12 }}>
+  <SafeAreaView style={{ margin: 12 }}>
     <GlowView>
       <View style={styles.LoadingItem}>
         <View style={styles.GlowCheckbox} />
